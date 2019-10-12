@@ -1,0 +1,56 @@
+.intro h1:before {
+    content: 'DRACO';
+}
+
+.basic {
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    text-indent: 20px;
+    width: 100%;
+    /*margin-top: 20px;*/
+    background: #DAEEF3;
+}
+
+.intro {
+    overflow-x: inherit;
+    padding: 0 !important;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.basicX {
+    width: 100%;
+}
+
+.basicX li {
+    display: inline-block;
+    width: 48%;
+}
+#experiences .work-list{
+    margin-left: 25px !important;
+}
+#experiences .work-list li:nth-child(2),
+#experiences .work-list li:nth-child(3),
+#experiences .work-list li:nth-child(4),
+#experiences .work-list li:nth-child(5)
+{
+    margin-left: 20px !important;
+}
+.main-nav{
+    background: #000;
+}
+.main-nav nav ul li.active a {
+    color: #fff;
+}
+.main-nav nav ul li a {
+    color: #fff;
+}
+.link{
+    color: #000;
+    font-size: 12px;
+    text-decoration: none;
+    border-bottom: none !important;
+}
